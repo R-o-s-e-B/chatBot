@@ -1,0 +1,530 @@
+{
+    "intents": [
+
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Sam, a chatbot"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Rose Bobby"
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "rose",
+            "patterns": [
+                "who is she",
+                "who is that",
+                "who is rose",
+                "rose bobby"
+            ],
+            "responses": [
+                "Head over to his any of his social profiles to find out! Github: https://github.com/R-o-s-e-B"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact karan",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile : https://www.linkedin.com/in/rose-bobby-398411182/"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Rose very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2020, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": ["Where is WUD located?", "Where is the campus?", "location?", "location of campus?"],
+            "responses": [
+                "The University is located on a beautiful 12-acre campus on the \n\n GT Karnal Highway (North of Delhi) on GT Road within Delhi-NCR limits."
+            ]
+        },
+        {
+            "tag": "number",
+            "patterns": ["How can I contact?", "I wanna contact someone from the campus", "Contact info", "Contact campus"],
+            "responses": ["You can contact us through our helpdesk numbers 7056770061 at the campus. \nWe also have a helpdesk at Greater Kailash (Delhi) .\nYou can also WhatsApp at 7056770065."]
+        },
+        {
+            "tag": "visit",
+            "patterns": ["Can I visit the University campus?",
+                "Can I visit the campus?",
+                "I wanna see the campus",
+                "When can I see the campus?",
+                "How can I see the campus?"],
+            "responses": ["Yes, you can visit Monday-Saturday between 10.00 am and 5.00 pm.",
+                "You can visit the campus Monday-Saturday between 10.00 am and and 5.00 pm"]
+        },
+        {
+            "tag": "courses",
+            "patterns": ["What all courses does the university offer?",
+                "What courses do you offer?",
+                "Courses",
+                "All courses"],
+            "responses": ["UNDERGRADUATE BArch (5years)|BDes - Product Design, Interior Design, Lifestyle Accessory Design, Fashion Design, Graphic Communication Design, Animation & Game Design (4 Years)|BVA - Creative Painting, Applied Arts (4 Years)|BBA - Design Strategy and Management ,Retail Business Management (3 years)\n\nPOSTGRADUATE MDes - Industrial Design, Transportation Design, Retail Design (2 years)|MVA -Art and Design History, Curatorial Practices in Art, Fashion Art, Contemporary Art Practice (2 Years) |MBA - Design Strategy and Management\n\nDIPLOMA Fashion Design |Graphics & web Design|Photography"]
+        },
+        {
+            "tag": "fee",
+            "patterns": ["What is the fee structure?", "Fee structure", "fee", "College fees", "What is the fee structure at wud?"],
+            "responses": ["A. Architecture –Rs.8,00,000/- \n|Design- Rs. 9,00,000/-\n|Art-Rs.5,20,000/-\n|Management – Rs.5,10,000/-\nRs.18000/- is Registration Fees.\n*Not Refundable onetime payment for all courses."]
+        },
+        {
+            "tag": "caution",
+            "patterns": ["Is any caution money included in your fee structure", "caution deposit?"],
+            "responses": ["No we don't charge any caution money."]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["Can we pay fees in installment or is it semester wise?", "Is the fee payment annual?", "Can fees be payed semester wise?"],
+            "responses": ["The fee payment is annual."]
+        },
+        {
+            "tag": "apply",
+            "patterns": ["How can I apply?", "Where can I find the application form?", "How do I apply?", "Application form?"],
+            "responses": ["Student can download the application form from our website www.worlduniversityofdesign.ac.in , Student can ask for it on an email or can collect it from our campus. It can be send via Email or by post along with the application fee of Rs 1000/-, which can be paid by cash/cheque/ Demand Draft/RTGS or NEFT bank transfer."]
+        },
+        {
+            "tag": "form",
+            "patterns": ["Can we submit the application form without submitting the 10+2 exam mark sheet?", "Submitting 10+2 exam mark sheet", "10+2 exam results"],
+            "responses": ["Yes, the application can be submitted before declaration of the results. However, candidates applying for admission will be eventually required to fulfil all the eligibility criteria for admission to the programme. Their admission will be purely provisional, subject to their satisfying the prescribed eligibility conditions. If on verification at any time before or after the Written Test and Interview, it is found that candidate does not fulfil eligibility criteria, his / her candidature for the admission shall stand cancelled without any notice or further reference."]
+        },
+        {
+            "tag": "calendar",
+            "patterns": ["What is the general calendar of the admission process?", "When do admissions start?", "When can I apply?"],
+            "responses": ["The applications are open from November. \nSpecific information can be seen in brochure or \non the website of the University."]
+        },
+        {
+            "tag": "admission",
+            "patterns": ["What is the admission process?", "admission", "Admission details"],
+            "responses": ["Admission Form - Aptitude Test - Campus Interview - Offer Letter.\nAfter receiving the application form, it will be processed for eligibility of the candidate.\nEligible candidates will be informed about the date/time of the tests/interview.\nWherever applicable WUDs DAT/AAT or GAT Aptitude Tests will be conducted.\nFor admission to B Arch program, NATA of JEE scores will be required.\n\nCandidates will be required to bring requisite documents in original along with their attested photocopies. \nDetails about course specific admission process are mentioned in the Information Brochure."]
+        },
+        {
+            "tag": "eligibility",
+            "patterns": ["What is the eligibility criteria for admissions in wud?", "Am I eligible to apply", "eligibility"],
+            "responses": ["Eligibility for Bachelor Programmes:\nCandidates who have completed their 10+2 level or equivalent exams \nlike AISSCE/ IB/ ICSE/ State Board etc. (in relevant stream) are \neligible to apply for undergraduate degree programmes.\nIn addition to marks in the qualifying examinations, the admission will be based on performance in Aptitudes Test followed by a personal interview.\n\nEligibility for Masters Programmes:\nCandidates who have completed 3/4-year full-time bachelors in Design/ Engineering/Architecture/ Fine Arts or equivalent, are eligible to apply. Candidates who have appeared in the qualifying exams and the results are expected to be declared latest by 31st October can also apply. The admission will be based on performance in Aptitude Test followed by a personal interview."]
+        },
+        {
+            "tag": "entrance",
+            "patterns": ["When and where is the entrance test conducted", "Where is the entrance test conducted", "When is the entrance conducted"],
+            "responses": ["While the Admission procedure will be conducted at WUD Campus, the Entrance Test Schedule and centers will be as listed on the website."]
+        },
+        {
+            "tag": "age",
+            "patterns": ["What is the age limit for applying?", "What age should I be to apply", "Maximum age to apply"],
+            "responses": ["The upper age limit for applying in bachelor programmes is restricted to 20 years relaxable up to 3 years on proving genuine evidence of discontinuity in education profile. However for Post graduate programmes there is no age limit."]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["What are the facilities provided on campus in terms of services to the students?", "Campus facilities", "What are the facilities for students on campus", "What facilities are provided?"],
+            "responses": ["WUD has created excellent physical and academic infrastructure like labs, library and studios, workshops, computer labs (including Apple Mac platform). There are hostels, canteens, sports zone, medical facilities including doctor, Internet access and transport facility."]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["Can we pay fees in installment or is it semester wise?", "Is the fee payment annual?", "Can fees be payed semester wise?"],
+            "responses": ["The fee payment is annual."]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["Can we pay fees in installment or is it semester wise?", "Is the fee payment annual?", "Can fees be payed semester wise?"],
+            "responses": ["The fee payment is annual."]
+        },
+        {
+            "tag": "hostel",
+            "patterns": ["Does WUD provide Hostel/Residential facility for students?", "Hostel facilities for students", "Does wud have college hostel", "college hostel", "residential facility"],
+            "responses": ["WUD provides state-of-the-art boarding facility on campus for girl students and boy students."]
+        },
+        {
+            "tag": "hostel fee",
+            "patterns": ["What is the fee structure of Girls Hostel/Boys Hostel?", "How much is the hostel fee?", "Hostel fee?"],
+            "responses": ["The fee structure for hostel is based on actual expenses incurred and is revised every year. The fee for 2018-19 is :\nGirls Twin Sharing in campus (165000/-per year) for Accommodation and meals\nBoys Four Sharing off campus (165000/-Per year) for Accommodation and meals"]
+        },
+        {
+            "tag": "hostel facilities",
+            "patterns": ["What other facilities are included in the hostel", "Facilities available in the hostel", "Facilities in hostel"],
+            "responses": ["Apart from spacious air-conditioned rooms with attached bathrooms, there are Common Rooms, Sports facility and 24 hour Security. Food and laundry facilities are among the best in the country. Safe and healthy environment is provided to the students."]
+        },
+        {
+            "tag": "timings",
+            "patterns": ["What are the class timings", "Class timings?", "At what time do classes start everyday?"],
+            "responses": ["The class timings are from 9:30-4:30. But there may be extensions on certain days based on the course requirement"]
+        },
+        {
+            "tag": "intake",
+            "patterns": ["How much instake do you have in each course?", "Student intake?", "How many students in each course?"],
+            "responses": ["Architecture 40 seats, Rest all courses 40 seats each except Fashion which has 60 seats."]
+        },
+        {
+            "tag": "course for me",
+            "patterns": ["Which is the best course for me?", "Which course should I take", "What course should I take?"],
+            "responses": ["TYou can come for a counseling session in the campus to enquire about the courses in detail and match to your interest. Moreover there will be a formal counseling at the time of interview with an esteemed panel to see to your interest matching your creative aptitude test. If still doubt persists you can decide after 6 months of common foundation programme to see what course match your potential."]
+        }
+    ]
+}
